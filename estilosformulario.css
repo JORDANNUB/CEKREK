@@ -1,0 +1,87 @@
+body 
+{ margin: 0; /*Permite crear un margen*/
+  padding: 0; /*Permite crear un espacio para que el contenido no tope con el margen*/
+  font-family: sans-serif;  /*Tipo de fuente de letra*/
+  background: linear-gradient(300deg,#ff4f08,#ff9208); /*Color de degradado del cuerpo*/
+  height: 100vh;  /* Altura del degradado */
+  /*Centrar con flex box el contenedor*/
+  display: flex; 
+  justify-content: center;
+  align-items: center ; 
+}
+
+/* colocamos el nombre del contenedor para no generalizar*/
+#contenedor 
+{background-color: white;
+ border-radius: 10px; /* Crear esquinas circulares */
+ width: 400px;} /*  Ancho del contenedor */ 
+
+ /**/
+
+ h1{
+color: #ff4f08; /* Color del texto */
+text-align: center; /* Alineacion del texto*/
+border-bottom: 1px solid #ff9208; /* Linea que se coloca debajo del h1*/
+padding: 0 0 20px 0; /* Espacios que se dejan*/
+
+}
+
+#contenedor form{ /*utilizamos el numeral para un id*/
+    padding: 0 40px ; /* centramos el segundo nro se refiere a derecha e izquierda */
+}
+
+/* -------------------Etiquetas y cuadros de texto ----------------------------------*/
+.ingreso /* Se utiliza el punto porque es una clase*/
+{
+    border-bottom: 2px solid #ff9208;
+    margin: 20px;
+}
+
+.ingreso .cuadrotext /* Doble punto porque es una clase dentro de otra */
+{ width: 100%; /* Ancho */
+  height: 40px; /* Altura */
+  font-size: 18px; /*Tamaño de fuente*/
+  border: none;
+  outline: none;
+}
+
+
+#recordar
+{ margin-bottom: 20px; /* margen inferior */
+}
+
+#boton
+{ width: 100%;
+  height: 50px;
+  border: 2px solid #ff9208;   
+  background: #ff4f08;
+  border-radius: 6px;
+  font-size: 18px; /* tamaño de la fuente */
+  color: white;
+  cursor: pointer; /* Diseño del cursor sobre el boton de "enviar"*/
+}
+
+#registrarse 
+{ margin-top: 20px;  /* Margen superior*/
+  margin-bottom: 20px; /* Margen inferior*/
+  color: black;
+  font-size: 18px;
+}
+
+#registrarse
+a{ color:  blue;  /* Utilizamos la etiqueta a para el link*/ 
+  text-decoration: none; /*Decoracion de texto(negrita, cursiva etc.)*/
+}
+
+#registrarse
+a:hover{ text-decoration: underline; /* elimina el subrayado del texto con la etiqueta "a" */
+}
+
+#registrarse 
+{text-align: center;} /* aliniea el texo*/ 
+
+#logo-simi
+{ height: 100px;
+  width:  100px;
+  margin:  0 100px;
+}
